@@ -17,7 +17,11 @@
 <link href="{{asset('vendor/css/custom.min.css')}}" rel="stylesheet" type="text/css" />
 <!-- END THEME LAYOUT STYLES -->
 
+<!-- Toaster Plugin -->
+<link rel="stylesheet" href="{{ asset('vendor/css/toastr.min.css') }}">
+
 <!-- CALENDER PLUGINS -->
+<link href="{{asset('vendor/css/morris.css')}}" rel="stylesheet" type="text/css" />
 <link href="{{asset('vendor/css/fullcalendar.min.css')}}" rel="stylesheet" type="text/css" />
 <!-- END CALENDER PLUGINS -->
 

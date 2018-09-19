@@ -63,10 +63,10 @@
                         <td>
                             <form action="{{route('users.destroy', $user->id)}}" method="POST">
                                 @csrf {{ method_field('DELETE') }}
-                                <a href="{{route('users.edit', $user->id)}}" class="btn dark btn-sm btn-outline sbold uppercase">
+                                <a href="{{route('users.edit', $user->id)}}" class="btn dark btn-sm sbold uppercase">
                                     <i class="fa fa-edit"> Edit </i>
                                 </a>
-                                <button type="submit" class="btn red btn-sm btn-outline sbold uppercase">
+                                <button type="submit" class="btn red btn-sm sbold uppercase">
                                     <i class="fa fa-edit">Delete</i>
                                 </button>
                             </form>
