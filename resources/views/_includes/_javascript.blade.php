@@ -17,6 +17,10 @@
 <script src="{{asset('vendor/js/quick-sidebar.min.js')}}" type="text/javascript"></script>
 <!-- END THEME LAYOUT SCRIPTS -->
 
+<!-- Toaster Plugin -->
+<script src="{{asset('vendor/js/toastr.min.js')}}" type="text/javascript"></script>
+
+
 <!-- CALENDER PLUGINS -->
 <script src="{{asset('vendor/js/moment.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('vendor/js/fullcalendar.min.js')}}" type="text/javascript"></script>

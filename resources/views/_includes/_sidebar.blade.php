@@ -12,7 +12,7 @@
                 </div>
                 <!-- END SIDEBAR TOGGLER BUTTON -->
             </li>
-            <li class="nav-item start ">
+            <li class="nav-item start  {{ Route::current()->getName() == 'home' ? 'active open': ''}} ">
                 <a href="{{route('home')}}" class="nav-link nav-toggle">
                     <i class="icon-home"></i>
                     <span class="title">Dashboard</span>
@@ -21,14 +21,14 @@
             <li class="heading">
                 <h3 class="uppercase">Features</h3>
             </li>
-            <li class="nav-item  ">
+            <li class="nav-item  {{ Route::current()->getName() == 'users.index' ? 'active open': ''}}">
                 <a href="{{route('users.index')}}" class="nav-link nav-toggle">
                     <i class="icon-user"></i>
                     <span class="title">Users</span>
                 </a>
             </li>
 
-            <li class="nav-item  ">
+            <li class="nav-item  {{ Route::current()->getName() == 'tasks.index' ? 'active open': ''}}">
                 <a href="{{route('tasks.index')}}" class="nav-link nav-toggle">
                     <i class="icon-rocket"></i>
                     <span class="title">Tasks</span>
